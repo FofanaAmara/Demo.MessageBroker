@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PointAPoint", "PointAPoint", "{D33B7B9D-4518-4006-91C2-4EBF7D433B97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PubSub", "PubSub", "{4EBDA1A3-F3B3-4BED-A589-48865D311FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.PointAPoint.Producteur", "Demo.PointAPoint.Producteur\Demo.PointAPoint.Producteur.csproj", "{279397B5-6CD0-4412-A8EE-3443C640CA0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.PointAPoint.Consommateur", "Demo.PointAPoint.Consommateur\Demo.PointAPoint.Consommateur.csproj", "{5D65BAB9-CCE5-4EA9-88C5-3E3933A02F66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commandes", "Commandes", "{B44193E0-9928-4865-B92A-A561E6FAF16E}"
+	ProjectSection(SolutionItems) = preProject
+		PoinAPoint_1_consommateur.cmd = PoinAPoint_1_consommateur.cmd
+		PoinAPoint_1_producteur.cmd = PoinAPoint_1_producteur.cmd
+		PoinAPoint_2_consommateurs.cmd = PoinAPoint_2_consommateurs.cmd
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.PubSub.Publicateur", "Demo.PubSub.Publicateur\Demo.PubSub.Publicateur.csproj", "{D468755B-A50A-49E9-A65B-20E4A3DA0E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.PubSub.Souscripteur", "Demo.PubSub.Souscripteur\Demo.PubSub.Souscripteur.csproj", "{40E74356-A84C-4364-AB25-7782F37BACC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commandes", "Commandes", "{C9C073ED-09EC-467B-B038-83349C207633}"
+	ProjectSection(SolutionItems) = preProject
+		PubSub_1_publicateur.cmd = PubSub_1_publicateur.cmd
+		PubSub_1_souscripteur.cmd = PubSub_1_souscripteur.cmd
+		PubSub_3_souscripteurs.cmd = PubSub_3_souscripteurs.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{279397B5-6CD0-4412-A8EE-3443C640CA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279397B5-6CD0-4412-A8EE-3443C640CA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279397B5-6CD0-4412-A8EE-3443C640CA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279397B5-6CD0-4412-A8EE-3443C640CA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D65BAB9-CCE5-4EA9-88C5-3E3933A02F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D65BAB9-CCE5-4EA9-88C5-3E3933A02F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D65BAB9-CCE5-4EA9-88C5-3E3933A02F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D65BAB9-CCE5-4EA9-88C5-3E3933A02F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D468755B-A50A-49E9-A65B-20E4A3DA0E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D468755B-A50A-49E9-A65B-20E4A3DA0E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D468755B-A50A-49E9-A65B-20E4A3DA0E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D468755B-A50A-49E9-A65B-20E4A3DA0E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E74356-A84C-4364-AB25-7782F37BACC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E74356-A84C-4364-AB25-7782F37BACC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E74356-A84C-4364-AB25-7782F37BACC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E74356-A84C-4364-AB25-7782F37BACC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{279397B5-6CD0-4412-A8EE-3443C640CA0A} = {D33B7B9D-4518-4006-91C2-4EBF7D433B97}
+		{5D65BAB9-CCE5-4EA9-88C5-3E3933A02F66} = {D33B7B9D-4518-4006-91C2-4EBF7D433B97}
+		{B44193E0-9928-4865-B92A-A561E6FAF16E} = {D33B7B9D-4518-4006-91C2-4EBF7D433B97}
+		{D468755B-A50A-49E9-A65B-20E4A3DA0E1A} = {4EBDA1A3-F3B3-4BED-A589-48865D311FB0}
+		{40E74356-A84C-4364-AB25-7782F37BACC6} = {4EBDA1A3-F3B3-4BED-A589-48865D311FB0}
+		{C9C073ED-09EC-467B-B038-83349C207633} = {4EBDA1A3-F3B3-4BED-A589-48865D311FB0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C2293B4-68D2-41F8-AD86-05024287DFE0}
+	EndGlobalSection
+EndGlobal
